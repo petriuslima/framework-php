@@ -2,13 +2,16 @@
 
 class ProdutosController extends Controller
 {
-    public function index ()
+    public function Index ()
     {
-        $this->view('produtos/index');
+        // $db = new ProdutosModel();
+        // print_r($db->insert('produtos', array(
+        //     'id' => '1'
+        // )));
     }
 
-    public function novos ()
+    public function Novos ()
     {
-        $this->view('produtos/novos');
+        $this->View('produtos/novos');
     }
 }
