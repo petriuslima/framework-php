@@ -4,12 +4,12 @@ class Model
 {
     protected $db;
 
-    public function __construct() 
+    public function __construct()
     {
         $this->db = new PDO('mysql:host=localhost;dbname=framework', 'root', '');
     }
 
-    public function Create($tabela, array $dados)
+    public function create($tabela, array $dados)
     {
         $sql = "INSERT INTO produtos (campo) VALUES ('valor1')";
         $array = array(
@@ -22,18 +22,18 @@ class Model
         return $campos;
     }
 
-    public function Read()
+    public function read()
     {
-        
+
     }
 
-    public function Update()
+    public function update()
     {
-        
+
     }
 
-    public function Delete()
+    public function delete()
     {
-        
+
     }
 }

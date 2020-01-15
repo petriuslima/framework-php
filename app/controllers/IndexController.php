@@ -2,8 +2,8 @@
 
 class IndexController extends Controller
 {
-    public function Index ()
+    public function index()
     {
-        $this->View('Index');
+        $this->view('index');
     }
 }

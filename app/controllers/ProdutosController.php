@@ -2,7 +2,7 @@
 
 class ProdutosController extends Controller
 {
-    public function Index ()
+    public function index()
     {
         // $db = new ProdutosModel();
         // print_r($db->insert('produtos', array(
@@ -10,7 +10,7 @@ class ProdutosController extends Controller
         // )));
     }
 
-    public function Novos ()
+    public function novos()
     {
         $this->View('produtos/novos');
     }
